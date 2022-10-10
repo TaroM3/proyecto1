@@ -102,6 +102,7 @@ h1{
 
 .art-1{
     width: 100%;
+    border-right: 0.1rem solid var(--accent);
 }
 .art-1 p{
     font-size: var(--text-sm);
@@ -172,6 +173,10 @@ h3{
 }
 .titulos p{
     font-size: var(--text-sm);
+}
+
+.imagen img{
+    width: 60em;
 }
 
 /*Footer*/
