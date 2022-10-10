@@ -16,7 +16,7 @@
     --text-xl2: 3.1em;
     --text-lg: 1.9em;
     --text-sm: 1.6em;
-    --text-xs: 1.2em;
+    --text-xs: 1.3em;
 
     /* Spacings */
     --space-xxl: 12rem;
@@ -86,9 +86,12 @@ h1{
     font-size: var(--text-xxl);
 }
 .box-1{
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--primary);
     padding: var(--space-xl);
-    margin: 0;
 }
 .box-1 h1{
     color: var(--accent);
@@ -96,11 +99,23 @@ h1{
 .box-1 p{
     font-size: var(--text-sm);
 }
+
+.art-1{
+    width: 100%;
+}
 .art-1 p{
     font-size: var(--text-sm);
 }
+
+.art-2{
+    width: 100%;
+}
+
+
 .art-2 p{
     font-size: var(--text-xs);
+    line-height:  2em;
+    text-align: center;
 }
 #banner2{
     background-image: url(../resources/12.jpg);
@@ -110,10 +125,14 @@ h2{
     font-size: var(--text-xl);
     color: var(--accent);
 }
-#box-2{
-    padding: var(--space-xl);
+.box-2{
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--space-xl);
 }
-#box-2 p{
+.box-2 p{
     font-size: var(--text-sm);
 }
 
@@ -153,6 +172,16 @@ h3{
 }
 .titulos p{
     font-size: var(--text-sm);
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: var(--text-lg);      
 }
 
 
