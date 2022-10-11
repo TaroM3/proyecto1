@@ -102,14 +102,23 @@ h1{
 
 .art-1{
     width: 100%;
+    display: flex ;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 5rem 0 0;
     border-right: 0.1rem solid var(--accent);
+    height: 17rem;
+    text-align: center;
 }
+
 .art-1 p{
     font-size: var(--text-sm);
+    margin-top: 3rem;
 }
 
 .art-2{
     width: 100%;
+    padding: 0 0 0 5rem;
 }
 
 
