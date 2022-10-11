@@ -186,13 +186,16 @@ h3{
     background-color:var(--secondary);
 }
 #form input, textarea, button{
-    border-radius: 0.4em;
+    border: none;
 }
 #form input{
     height: 3em;
 }
 #form button{
-    background-color: none;
+   background-color: var(--secondary);
+   border: none;
+   color: var(--primary);
+    
 }
 
 .box-type1 figure img{
