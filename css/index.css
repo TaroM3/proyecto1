@@ -57,7 +57,7 @@ header, footer{
 .navbar {
     display: flex;
     margin: 0, var(--space-xxl);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 ul {
@@ -181,8 +181,10 @@ h3{
     font-size: var(--text-lg);
     margin: 2rem 0;
 }
+
+
 #form{
-    height: 70rem;
+    height: 80rem;
     background-color:var(--secondary);
 }
 #form input, textarea, button{
@@ -190,6 +192,10 @@ h3{
 }
 #form input{
     height: 3em;
+    font-size: var(--text-lg);
+}
+#form textarea {
+    font-size: var(--text-lg);
 }
 #form button{
    background-color: var(--secondary);
@@ -213,6 +219,8 @@ h3{
     font-size: var(--text-lg);
 }
 .titulos{
+    display: flex;
+    align-items: center;
     padding: var(--space-xl);
     color: var(--primary);
 }
