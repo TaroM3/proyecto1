@@ -380,4 +380,35 @@ footer p{
     }
 }
 
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 34.5rem;
+    background-color: var(--primary);
+    padding: var(--space-lg);
+    margin: var(--space-sm) 0;
+}
+.row figure{
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem auto; 
+}
+.row figure img{
+    height: 20rem;
+    width: 20rem;
+    margin-right: var(--space-sm);
+}
+
+.img-effect{
+    transition: 0.75s ease-in-out;
+}
+.img-effect:hover{
+    opacity: 50%;
+    
+}
+
+
+
 
