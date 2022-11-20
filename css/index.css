@@ -409,6 +409,15 @@ footer p{
     
 }
 
+.art-2 a {
+    font-size: 0.9em;
+    color: var(--primary);
+    transition: all 0.5s ease-in-out;
+}
+
+.art-2 a:hover{
+    color: var(--accent);
+}
 
 
 
